@@ -6,16 +6,16 @@
 int main() {
     SSD1306 oled(0x3C);
 
-    std::cout << "OLED başlatılıyor..." << std::endl;
+    std::cout << "OLED is initialized..." << std::endl;
     oled.initialize();
 
-    std::cout << "Temizleniyor..." << std::endl;
+    std::cout << "cleaning the display..." << std::endl;
     oled.clearDisplay();
 
-    std::cout << "Yazı hazırlanıyor..." << std::endl;
+    std::cout << "preparing the text..." << std::endl;
     oled.drawText(0, 0, "Merhaba EYLÜL!");
 
-    std::cout << "Ekrana yaziliyor..." << std::endl;
+    std::cout << "writing on the display..." << std::endl;
     oled.display();
 
     sleep(60);
