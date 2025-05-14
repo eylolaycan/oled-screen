@@ -27,6 +27,8 @@ oled-screen/
 ├── oled_test # Compiled binary for quick testing
 └── Makefile # Build configuration
 
+```
+
 ---
 
 ## 🧰 Requirements
