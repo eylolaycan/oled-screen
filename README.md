@@ -48,7 +48,7 @@ oled-screen/
 | SDA      | GPIO 2 (SDA)     |
 | SCL      | GPIO 3 (SCL)     |
 
----
+```
 
 ## 🛠️ How to Build & Run
 
