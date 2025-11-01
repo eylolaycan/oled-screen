@@ -1,10 +1,10 @@
-# 🖥️ OLED Screen Writer – Raspberry Pi Zero 2 W
+# OLED Screen Writer – Raspberry Pi Zero 2 W
 
 A simple and lightweight C++ project for writing text to an **SSD1306 OLED screen** using Raspberry Pi Zero 2 W. The project is designed for **headless SSH development** and directly communicates with the OLED screen over **I2C**.
 
 ---
 
-## ✅ Features
+## Features
 
 - Text rendering on 128x64 SSD1306 OLED display
 - Framebuffer-based character drawing using custom 5x7 font
@@ -14,7 +14,7 @@ A simple and lightweight C++ project for writing text to an **SSD1306 OLED scree
 
 ---
 
-## 💡 Project Structure
+## Project Structure
 
 
 ```
@@ -31,7 +31,7 @@ oled-screen/
 
 ---
 
-## 🧰 Requirements
+## Requirements
 
 - Raspberry Pi Zero 2 W (or any Pi with I2C)
 - SSD1306 OLED screen (128x64, I2C interface)
