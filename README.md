@@ -50,7 +50,7 @@ oled-screen/
 
 ```
 
-## 🛠️ How to Build & Run
+## How to Build & Run
 
 ### Build
 
