@@ -2,8 +2,6 @@
 
 A simple and lightweight C++ project for writing text to an **SSD1306 OLED screen** using Raspberry Pi Zero 2 W. The project is designed for **headless SSH development** and directly communicates with the OLED screen over **I2C**.
 
----
-
 ## Features
 
 - Text rendering on 128x64 SSD1306 OLED display
@@ -15,8 +13,6 @@ A simple and lightweight C++ project for writing text to an **SSD1306 OLED scree
 ---
 
 ## Project Structure
-
-
 ```
 
 oled-screen/
@@ -28,9 +24,7 @@ oled-screen/
 └── Makefile # Build configuration
 
 ```
-
 ---
-
 ## Requirements
 
 - Raspberry Pi Zero 2 W (or any Pi with I2C)
@@ -38,17 +32,16 @@ oled-screen/
 - C++17 compiler (e.g., `g++`)
 - Wiring:
 
-
 ```
-
 | OLED Pin | Raspberry Pi Pin |
 |----------|------------------|
 | GND      | GND              |
 | VCC      | 3.3V             |
 | SDA      | GPIO 2 (SDA)     |
 | SCL      | GPIO 3 (SCL)     |
-
 ```
+
+---
 
 ## How to Build & Run
 
